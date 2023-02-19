@@ -1,0 +1,455 @@
+/* main css */
+*{
+    padding: 0px;
+    margin: 0px;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+    font-family: 'Alkalami', serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Paprika', cursive;
+    font-family: 'Prata', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+
+/* main css */
+
+/* navbar */
+
+.navbar{
+    background-color: rgb(255, 255, 255) !important;   
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    z-index: 30 !important;
+    box-shadow: 0 6px 15px 0 rgba(0,0,0,.2) !important;
+}
+
+.navbar-toggler{
+  background-color: white !important;
+  color: #D41596 !important;
+}
+
+
+/* logo */
+.navbar-brand{
+    color: #5fb1ef !important;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 40px !important;
+}
+
+.navbar-brand span{
+    font-size: 39px !important;
+    color: #D41596 !important;
+}
+/* logo */
+
+/* links */
+.nav-link{
+    font-size: 18px !important;
+    color: #D41596 !important;
+    font-weight: 500 !important;
+    transition-duration: 0.3s !important;
+}
+
+.nav-link:hover{
+  color: #93c9f1 !important;
+  text-decoration: underline !important;
+  transform: scale(1.15);
+}
+
+.active{
+    color: #93c9f1 !important;
+    text-decoration: underline !important;
+}
+
+@media (min-width:1300px) {
+    .navbar-nav{
+        margin-left: 40% !important;
+    }
+    .nav-link{
+        padding: 0px 25px !important;
+    }
+}
+
+
+/* links */
+
+/* navbar */
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(https://www.atlasandboots.com/wp-content/uploads/2015/04/seven-second-summits-k2-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+}
+
+/* slider */
+
+Slideshow container
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+  height: 400px !important;
+}
+
+/* Slides*/ 
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+  height: 500px !important;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position:absolute;
+  top: 250px;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+ /*The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle*/ 
+.activee .dot:hover {
+  background-color: #1b1616 !important;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  padding-top: 12%;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+
+.mySlides{
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position:bottom;
+  color: #ffffff;
+  font-size: 30px; 
+}
+/* slider */
+
+/* our services */
+section{
+  text-align: center;
+ 
+}
+
+.col-sm-4{
+  margin-bottom: 70px !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 30px 20px !important;
+  cursor: pointer;
+  transition-duration: 2s;
+}
+
+@media (max-width:1200px) {
+  .col-sm-4:hover{
+    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
+    background-color: black;
+    color: white;
+  }
+}
+@media (min-width:1200px) {
+  .col-sm-4:hover{
+    transform: scale(1.15);
+    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
+    background-color: black;
+    color: white;
+  }
+}
+
+@media (max-width:800px) {
+  .col-sm-4{
+    width: 310px !important;
+    margin:0px 10%;
+  }
+}
+
+@media (min-width:700px) and (max-width:1300px) {
+  .col-sm-4{
+    width: 310px !important;
+    margin: 20px 0px !important;
+    padding: 20 20px !important;
+    /* margin:0px 10%; */
+  }
+}
+
+
+.col-sm-4 h3{
+  color: #D41596 !important;
+}
+
+.nameofsec{
+  margin-bottom: 60px;
+  padding-bottom: 5px;
+  border-bottom:5px solid #D41596 ;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.nameofsec:hover{
+  box-shadow: inset 400px 0 0 0 #93c9f1;
+  color:#D41596;
+  cursor: pointer;
+}
+i{
+  font-size: 70px !important;
+  color: #93c9f1;
+/*   font-family: "Font Awesome 5 Brands" !important; content: "\f099"; */
+}
+
+h4{
+  margin-bottom: 60px !important;
+  font-size: 20px !important;
+  font-weight: 200;
+}
+/* our services */
+
+/* about us */
+
+/* about us */
+
+/* our team */
+
+.ourteam{
+  margin-left: 12% !important;
+}
+.col-sm-6{
+  margin-bottom: 70px !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 30px 20px !important;
+  cursor: pointer;
+  transition-duration: 2s;
+  width: 400px !important;
+  margin-right: 40px !important;
+  /* max-width: 300px !important; */
+}
+
+.dropdown-item:hover
+{
+  color: #0bbbdf !important;
+}
+
+@media (max-width:1200px) {
+  .ourteam{
+    margin-left: 6% !important;
+  }
+  .col-sm-6{
+    margin: px 20px 70px !important;
+    max-width: 310px !important;
+  }
+}
+
+@media (max-width:1200px) {
+  .col-sm-6:hover{
+    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
+    background-color: black;
+    color: white;
+  }
+}
+@media (min-width:1200px) {
+  .col-sm-6:hover{
+    transform: scale(1.15);
+    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
+    background-color: black;
+    color: white;
+  }
+}
+
+.col-sm-6 img{
+  max-width: 200px !important;
+  max-height: 200px !important;
+  border-radius: 50% !important;
+  padding: 20px 0px !important;
+  
+}
+
+.linkedinacc a , .linkedinacc i{
+  font-size: 20px !important;
+  display: inline-block;
+  margin-top:-7px ;
+  padding-left: 5px !important;
+}
+/* our team */
+
+
+/* footer */
+footer{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  height: auto;
+  width: 100% !important;
+  /* padding-top: 40px; */
+  color: #000000;
+  box-shadow: 0 6px 15px 0 rgb(0, 0, 0) !important;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #2f3033;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+
+  border-radius: 50%;
+
+}
+.socials a i{
+  font-size: 20px !important;
+  width: 20px;
+  transition: color .4s ease;
+  color: #93c9f1 !important;
+
+}
+.socials a:hover i{
+  color: #93c9f1;
+}
+
+.footer-bottom{
+  background: #ffffff;
+  width: 100% !important;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  color: #000000;
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.664) !important;
+}
+.footer-bottom p{
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom p a{
+color:#93c9f1;
+font-size: 16px;
+text-decoration: none;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+.footer-menu{
+float: right;
+
+}
+.footer-menu ul{
+display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+color: #1b1b1b;
+text-decoration: none;
+}
+.footer-menu ul li a:hover{
+color: #0bbbdf;
+}
+
+@media (max-width:500px) {
+.footer-menu ul{
+display: flex;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+}
+/* footer */
+

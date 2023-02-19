@@ -1,0 +1,552 @@
+/* main css */
+*{
+    padding: 0px;
+    margin: 0px;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+    font-family: 'Alkalami', serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Paprika', cursive;
+    font-family: 'Prata', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+a{
+text-decoration: none !important;
+}
+/* main css */
+
+/* navbar */
+
+.navbar{
+    background-color: rgb(255, 255, 255) !important;   
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    z-index: 30 !important;
+    box-shadow: 0 6px 15px 0 rgba(0,0,0,.2) !important;
+}
+
+
+.nav-link:hover{
+    color: #93c9f1 !important;
+    text-decoration: underline !important;
+    transform: scale(1.15);
+  }
+  
+
+
+
+.navbar-toggler{
+  background-color: white !important;
+  color: #D41596 !important;
+}
+
+
+/* logo */
+.navbar-brand{
+    color: #93c9f1 !important;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 40px !important;
+}
+
+.navbar-brand span{
+    font-size: 39px !important;
+    color: #D41596 !important;
+}
+/* logo */
+
+/* links */
+.nav-link{
+    font-size: 18px !important;
+    color: #D41596 !important;
+    font-weight: 500 !important;
+}
+
+.active{
+    color: #93c9f1 !important;
+}
+
+@media (min-width:1300px) {
+    .navbar-nav{
+        margin-left: 40% !important;
+    }
+    .nav-link{
+        padding: 0px 25px !important;
+    }
+}
+
+
+/* links */
+
+/* navbar */
+
+header{
+background: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.644)),url(https://www.atlasandboots.com/wp-content/uploads/2015/04/seven-second-summits-k2-1.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100% 100%;
+margin-bottom: 50px;
+}
+
+/* slider */
+Slideshow container
+.slideshow-container {
+position: relative;
+background: #f1f1f1f1;
+}
+
+/* Slides*/ 
+.mySlides {
+display: none;
+padding: 80px;
+text-align: center;
+}
+
+/* Next & previous buttons */
+.prev , .next {
+cursor: pointer;
+position:absolute;
+top: 31%;
+width: auto;
+height:auto;
+padding: 20px;
+color: #e4dfdf;
+font-weight: bold;
+font-size: 20px;
+border-radius: 50% !important;
+user-select: none;
+display:inline-block;
+background-color:rgba(201, 201, 227, 0.114);
+margin: 0 15px;
+}
+
+/* Position the "next button" to the right */
+.next {
+position: absolute;
+right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+text-align: center;
+padding: 0px;;
+background: #ffffff00;
+}
+
+
+/* Add an italic font style to all quotes */
+q {
+padding-top: 12%;
+font-style: italic;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+
+.mySlides{
+height: 500px;
+background-repeat: no-repeat;
+background-size: cover;
+/* background-attachment: fixed; */
+background-position:bottom;
+color: #ffffff;
+font-size: 30px; 
+}
+/* slider */
+
+/* my info */
+section{
+text-align: center;
+}
+.headofsec{
+margin-bottom: 60px;
+padding-bottom: 5px;
+border-bottom:5px solid #D41596 ;
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+i{
+display: inline-block;
+padding-right: 8px !important;
+font-size: 30px !important;
+color:#93c9f1;
+}
+.card i, label{
+    font-size: 20px !important;
+} 
+
+.card input::placeholder
+{
+    color: #2f424a5a;
+    text-align: center;
+}
+.card input
+{
+    box-shadow: 0 6px 15px 0 rgba(0,0,0,.2) !important;
+    margin: 10px 0px;
+
+}
+.md-form
+{
+    text-align: left ;
+    
+}
+.btn
+{
+    background-color: #d41597cd !important;
+    border: 0 !important;
+    color: rgb(255, 255, 255) !important;
+}
+.btn:hover
+{
+    color: #ffffff !important;
+    background-color:#93c9f1 !important;
+}
+
+h4{
+margin-bottom: 60px !important;
+font-size: 20px !important;
+font-weight: 200;
+}
+.hid
+{
+    display: none !important;
+}
+.wholePage
+{
+  background-color: #0000004d;
+  width: 100%;
+  height:100% !;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 99;
+  
+}
+.validation
+{
+  width: 400px;
+  height: 200px;
+  padding: 15px;
+  border-radius: 15px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  color: #0bbbdf;
+  position: fixed;
+  z-index: 100;
+  display: inline-block;
+  text-align: center;
+}
+.validation button
+{
+  width: 30%;
+  margin: 15px;
+  padding: 0px 0px 2px 8px;
+  border-radius: 15px !important;
+  font-size: 40px;
+  border: none;
+  background-color: whitesmoke;
+}
+
+.faqfaq .fade
+{
+    color: #2c2e2f !important;
+    font-size: large !important;
+    margin: 40px;
+    height: 100% !important;
+
+}
+
+.list-group-item
+{
+    font-family: cursive;
+    height: 60px !important;
+
+}
+.list-group-item.active
+{
+    background-color: #93c9f1 !important;
+    color: #2c2e2f !important;
+}
+
+.Itag
+{
+    color: #D41596;
+}
+
+.coverSec
+{
+    width: 100%;
+    height: 500px;;
+    background-color: #D41596;
+    background: url("/imgs/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.coverDiv
+{
+    width: 100%;
+    height: 100%;
+    background-color: #528fe58e;
+}
+
+.card
+{
+    box-shadow: 0 6px 15px 0 rgba(0,0,0,.2) !important;
+}
+
+
+/* welcome message */
+.welcome_statement{
+    font-size: 45px;
+    height: fit-content;
+    font-weight: bold;
+    color: #000000 !important;
+    overflow:hidden; /* Ensures the content is not revealed until the animation */
+    white-space: wrap; /* Keeps the content on a single line */
+    margin:  0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: typing 5.5s steps(40, end), blink-caret 1s step-end infinite;
+    animation-iteration-count: infinite;
+    padding-top: 160px;
+  }
+
+  /* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+
+
+
+
+@media (min-width:1300px) {
+    .navbar-nav{
+        margin-left: 40% !important;
+    }}
+    @media (max-width:500px) {
+        .row{
+            display: flex;
+            flex-direction: column;
+            flex-grow: inherit;
+            flex-wrap: nowrap;
+            height: fit-content;
+        }
+        .faqfaq
+        {
+            width: 100% !important;
+            margin-top: 10px !important;
+            
+        }
+        .chat
+        {
+            width: 50px;
+            height: 50px;
+            padding: 0px 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            background-color: #0bbbdf;
+            color: white;
+            position: fixed;
+            z-index: 30;
+            right: 25px;
+            bottom: 8px;
+            margin-right: 15px;
+            margin-bottom: 25px;
+            display: flex;
+            justify-content:space-evenly;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .validation
+        {
+          height: fit-content;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: no-wrap;
+          display: inline-block;
+        }
+
+    }
+
+.chat
+{
+  width: 90px;
+  height: 90px;
+  padding: 0px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #0bbbdf;
+  color: white;
+  position: fixed;
+  z-index: 30;
+  right: 8px;
+  bottom: 8px;
+  display: flex;
+  justify-content:space-evenly;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* footer */
+/* footer */
+footer{
+    position: reative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    height: auto;
+    width: 100% !important;
+    /* padding-top: 40px; */
+    color: #000000;
+    box-shadow: 0 6px 15px 0 rgb(0, 0, 0) !important;
+    margin-top: 30px !important;
+  }
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  .footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #2f3033;
+  }
+  .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  }
+  .socials li{
+    margin: 0 10px;
+  }
+  .socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+  
+    border-radius: 50%;
+  
+  }
+  .socials a i{
+    font-size: 20px !important;
+    width: 20px;
+    transition: color .4s ease;
+    color: #93c9f1 !important;
+  
+  }
+  .socials a:hover i{
+    color: #93c9f1;
+  }
+  
+  .footer-bottom{
+    background: #ffffff;
+    width: 100% !important;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #000000;
+    box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.664) !important;
+  }
+  .footer-bottom p{
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }
+  .footer-bottom p a{
+  color:#93c9f1;
+  font-size: 16px;
+  text-decoration: none;
+  }
+  .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+  }
+  .footer-menu{
+  float: right;
+  
+  }
+  .footer-menu ul{
+  display: flex;
+  }
+  .footer-menu ul li{
+  padding-right: 10px;
+  display: block;
+  }
+  .footer-menu ul li a{
+  color: #1b1b1b;
+  text-decoration: none;
+  }
+  .footer-menu ul li a:hover{
+  color: #0bbbdf;
+  }
+  
+  @media (max-width:500px) {
+  .footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  }
+  }
+  /* footer */
+/* footer */
