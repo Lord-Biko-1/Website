@@ -25,6 +25,7 @@ text-decoration: none !important;
 /* navbar */
 
 .navbar{
+  width: 100%;
     background-color: rgb(255, 255, 255) !important;   
     position: fixed !important;
     top: 0 !important;

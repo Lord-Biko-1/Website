@@ -27,7 +27,7 @@ form.addEventListener("submit",(e)=>{
         const Subject=form['form-Subject'].value;
         const Text=form['form-text'].value;
         const phone=form['form-Phone'].value;
-        let d=Date(Date.now());
+        const d=Date(Date.now());
         const date =d.toString();
         let requestBody=  new  FormData();
         requestBody.append("date",date);

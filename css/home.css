@@ -1,6 +1,7 @@
 /* main css */
 *{
-    padding: 0px;
+    padding: 0px
+    ;
     margin: 0px;
     text-transform: capitalize;
     box-sizing: border-box;
@@ -27,6 +28,7 @@ a{
 /* navbar */
 
 .navbar{
+  width: 100%;
     background-color: rgb(255, 255, 255) !important;   
     position: fixed !important;
     top: 0 !important;
@@ -198,6 +200,7 @@ section{
 }
 
 .col-sm-4{
+  margin: 0 !important;
   margin-bottom: 70px !important;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 30px 20px !important;
@@ -275,10 +278,9 @@ h4{
 
 /* our team */
 
-.ourteam{
-  margin-left: 12% !important;
-}
+
 .col-sm-6{
+  margin: 0px !important;
   margin-bottom: 70px !important;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 30px 20px !important;
@@ -293,13 +295,17 @@ h4{
 {
   color: #0bbbdf !important;
 }
+.ourteam
+{
+  justify-content: center !important;
+}
 
 @media (max-width:1200px) {
   .ourteam{
-    margin-left: 6% !important;
+    justify-content: center !important;
   }
   .col-sm-6{
-    margin: px 20px 70px !important;
+    margin: 0px 0px 70px  0px !important;
     max-width: 310px !important;
   }
 }
@@ -348,7 +354,7 @@ footer{
   width: 100% !important;
   /* padding-top: 40px; */
   color: #000000;
-  box-shadow: 0 6px 15px 0 rgb(0, 0, 0) !important;
+  box-shadow: 15px 0 0px 0px  rgb(0, 0, 0) !important;
 }
 .footer-content{
   display: flex;
@@ -407,7 +413,7 @@ footer{
   padding-bottom: 40px;
   text-align: center;
   color: #000000;
-  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.664) !important;
+  box-shadow: 15px 0px 0px 0px rgba(0, 0, 0, 0.664) !important;
 }
 .footer-bottom p{
   float: left;
